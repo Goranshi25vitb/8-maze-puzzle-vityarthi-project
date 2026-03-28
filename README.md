@@ -14,7 +14,8 @@ If the puzzle is solvable, the A* algorithm is applied. The algorithm evaluates 
 this process stops when the goal state is reached.
 
 
-CONCEPT UDED:
+# CONCEPT USED:
+
 
 1.A* Search Algorithm
 
@@ -25,22 +26,28 @@ CONCEPT UDED:
 4.Inversion Count (Solvability Check)
 
 
-PROJECT LOCATION
+# PROJECT LOCATION:
+
 8-puzzle-project-vityarthi-project
-│
-├── 8 maze puzzle problem.py
-└── README.md
 
-1. SETUP INSTRUCTIONS
+ 1.8 maze puzzle problem.py
+ 
+ 2.README.md
 
-Step 1: Install Python
+
+
+# 1. SETUP INSTRUCTIONS
+
+## Step 1:
+Install Python
 Go to: https://www.python.org/downloads/Download Python (version 3.7 or higher)
 
 Run the installer
 
 Click Install Now
 
-Step 2: Verify Installation
+## Step 2:
+Verify Installation
 
 Open Command Prompt (Windows) or Terminal (Mac/Linux)
 
@@ -48,19 +55,22 @@ Type: python --version
 
 If installed correctly, you will see: Python 3.x.x
 
-Step 3: Create Project Folder
+## Step 3:
+Create Project Folder
 
 Create a folder: 8 maze puzzle problem
 
-Step 4: Add Code File
-Open any editor (eg. VS Code)
+## Step 4: 
+Add Code File Open any editor (eg. VS Code)
 
 Paste your Python code
+
 Save file as: 8 maze puzzle
 
 take care of File extension is .py NOT .txt
 
-Step 5: Open Terminal in Folder
+## Step 5: 
+Open Terminal in Folder
 Windows: Open folder
 
 Click address bar → type cmd → press Enter
@@ -68,7 +78,7 @@ Mac/Linux:
 
 Right click → “Open Terminal”
 
-2. DEPENDENCIES INSTALLATION:
+# 2. DEPENDENCIES INSTALLATION:
 
  No external dependencies required
 
@@ -76,26 +86,33 @@ This project uses only built-in Python modules: queue (PriorityQueue)
 
 No need to install anything
 
-3. CONFIGURATION STEPS
+# 3. CONFIGURATION STEPS
 
 This project works without any configuration, but you can customize:
 
-1. Change Goal State 
+### 1. Change Goal State 
 
-Default:
-goalstate = [[1,2,3],
-              [4,5,6],
-              [7,8,0]]
+ Default: goalstate =
+	                     
+						[[1,2,3],
+                      
+							[4,5,6],
+                      
+							[7,8,0]]
 
-You can modify if required.
+ You can modify if required.
 
-2. Set Fixed Input
+### 2. Set Fixed Input
 
 Instead of typing input every time:
 
-start_state = [[1,2,3],
-               [4,0,6],
-               [7,5,8]]
+start_state =
+               
+															[[1,2,3],
+               
+															[4,0,6],
+               
+															[7,5,8]]
 
 Change heuristic
 
@@ -103,23 +120,25 @@ Default: Manhattan Distance
 
 You can modify the heuristic function if needed.
 
-4. EXECUTION STEPS:
+# 4. EXECUTION STEPS:
 
-Step 1: Run Program
+## Step 1: Run Program
 
 In terminal: python 8_puzzle.py
 
-Step 2: Enter Input
+## Step 2: Enter Input
 
 You will be asked to enter row values:
 
-Example:
+### Example:
 
 Enter row 1: 1 2 3
+
 Enter row 2: 4 0 6
+
 Enter row 3: 7 5 8
 
-it's mandotory to use space between numbers 
+#### it's mandotory to use space between numbers 
 using 0 as a blank space
 
 Step 3: View Output
@@ -132,7 +151,7 @@ Show number of steps
 
 Display step-by-step solution
 
-Working Steps:
+## Working Steps:
 
 1.Start with the initial state.
 
@@ -144,7 +163,7 @@ Working Steps:
 
 5.Repeat until the goal state is reached.
 
-Example 
+## Example 
 
 Input:
 1 2 3
