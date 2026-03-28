@@ -25,6 +25,130 @@ Concepts used:
 4.Inversion Count (Solvability Check)
 
 
+Project Location
+
+8-puzzle-project-vityarthi-project
+│
+├── 8 maze puzzle problem.py
+└── README.md
+
+1.Setup Instructions (Step-by-Step)
+
+Step 1: Install Python
+Go to:
+https://www.python.org/downloads/
+Download Python (version 3.7 or higher)
+Run the installer
+
+Click Install Now
+
+Step 2: Verify Installation
+
+Open Command Prompt (Windows) or Terminal (Mac/Linux)
+
+Type:
+
+python --version
+
+If installed correctly, you will see:
+
+Python 3.x.x
+
+Step 3: Create Project Folder
+
+Create a folder:
+
+8 maze puzzle problem
+
+Step 4: Add Code File
+Open any editor (eg. VS Code)
+
+Paste your Python code
+Save file as:
+8 maze puzzle
+
+take care of
+
+File extension is .py
+NOT .txt
+
+Step 5: Open Terminal in Folder
+Windows:
+Open folder
+
+Click address bar → type cmd → press Enter
+Mac/Linux:
+
+Right click → “Open Terminal”
+
+2. Dependencies Installation:
+
+ No external dependencies required
+
+This project uses only built-in Python modules:
+
+queue (PriorityQueue)
+
+No need to install anything
+
+3. Configuration Steps
+
+This project works without any configuration, but you can customize:
+
+🔹 Change Goal State 
+
+Default:
+
+goalstate = [[1,2,3],
+              [4,5,6],
+              [7,8,0]]
+
+You can modify if required.
+
+🔹 Set Fixed Input
+
+Instead of typing input every time:
+
+start_state = [[1,2,3],
+               [4,0,6],
+               [7,5,8]]
+🔹 Change Heuristic 
+
+Default: Manhattan Distance
+
+You can modify the heuristic function if needed.
+
+4. Execution Steps
+
+Step 1: Run Program
+
+In terminal:
+
+python 8_puzzle.py
+
+Step 2: Enter Input
+
+You will be asked to enter row values:
+
+Example:
+
+Enter row 1: 1 2 3
+Enter row 2: 4 0 6
+Enter row 3: 7 5 8
+
+it's mandotory to use space between numbers 
+using 0 as a blank space
+
+Step 3: View Output
+
+The program will:
+
+Check if puzzle is solvable
+
+Show number of steps
+
+Display step-by-step solution
+
 Working Steps:
 
 1.Start with the initial state.
@@ -37,20 +161,30 @@ Working Steps:
 
 5.Repeat until the goal state is reached.
 
+Example 
 
-Sample input: 
+Input:
+1 2 3
+4 0 6
+7 5 8
 
-enter row 1: 1 2 3
-
-enter row 2: 4 0 5
-
-enter row 3: 6 7 8
+Output:
+Solution Found!
 
 
-Output 
+[1, 2, 3]
+[4, 0, 6]
+[7, 5, 8]
 
-1.Displays whether the puzzle is solvable or not
+[1, 2, 3]
+[4, 5, 6]
+[7, 0, 8]
 
-2.Shows the minimum number of steps required
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 0]
 
-3.Prints step-by-step all the solution path
+
+
+
+
