@@ -4,6 +4,7 @@ This is a puzzle solver which uses different approaches like A* search which is 
 The algorithm begins by taking an initial puzzle configuration from the user. It first checks whether the puzzle is solvable using inversion count logic.
 
 If the puzzle is solvable, the A* algorithm is applied. The algorithm evaluates each possible move and selects the best one based on the function:f(n)=g(n)+h(n)
+ 
  where, 
       
       g(n) = cost from start node to current node
@@ -11,6 +12,7 @@ If the puzzle is solvable, the A* algorithm is applied. The algorithm evaluates 
       h(n) = estimated cost to reach the goal state
 
 this process cstops when the goal state is reached.
+
 
 Concepts used:
 
@@ -21,6 +23,7 @@ Concepts used:
 3.State Space Representation
 
 4.Inversion Count (Solvability Check)
+
 
 Working Steps:
 
@@ -34,6 +37,7 @@ Working Steps:
 
 5.Repeat until the goal state is reached.
 
+
 Sample input: 
 
 enter row 1: 1 2 3
@@ -41,6 +45,7 @@ enter row 1: 1 2 3
 enter row 2: 4 0 5
 
 enter row 3: 6 7 8
+
 
 Output 
 
