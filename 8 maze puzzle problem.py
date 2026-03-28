@@ -52,7 +52,7 @@ def solvepuzzle(start):
         f, state, g, path = pq.get()
         
         if state == goalstate:
-            print("\n✅ Solution Found!")
+            print("Solution Found!")
             print("Steps:", g)
             print("\nPath:\n")
             for step in path + [state]:
