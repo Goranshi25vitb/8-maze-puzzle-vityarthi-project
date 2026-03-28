@@ -11,10 +11,10 @@ If the puzzle is solvable, the A* algorithm is applied. The algorithm evaluates 
      
       h(n) = estimated cost to reach the goal state
 
-this process cstops when the goal state is reached.
+this process stops when the goal state is reached.
 
 
-Concepts used:
+CONCEPT UDED:
 
 1.A* Search Algorithm
 
@@ -25,19 +25,17 @@ Concepts used:
 4.Inversion Count (Solvability Check)
 
 
-Project Location
-
+PROJECT LOCATION
 8-puzzle-project-vityarthi-project
 │
 ├── 8 maze puzzle problem.py
 └── README.md
 
-1.Setup Instructions (Step-by-Step)
+1. SETUP INSTRUCTIONS
 
 Step 1: Install Python
-Go to:
-https://www.python.org/downloads/
-Download Python (version 3.7 or higher)
+Go to: https://www.python.org/downloads/Download Python (version 3.7 or higher)
+
 Run the installer
 
 Click Install Now
@@ -46,85 +44,70 @@ Step 2: Verify Installation
 
 Open Command Prompt (Windows) or Terminal (Mac/Linux)
 
-Type:
+Type: python --version
 
-python --version
-
-If installed correctly, you will see:
-
-Python 3.x.x
+If installed correctly, you will see: Python 3.x.x
 
 Step 3: Create Project Folder
 
-Create a folder:
-
-8 maze puzzle problem
+Create a folder: 8 maze puzzle problem
 
 Step 4: Add Code File
 Open any editor (eg. VS Code)
 
 Paste your Python code
-Save file as:
-8 maze puzzle
+Save file as: 8 maze puzzle
 
-take care of
-
-File extension is .py
-NOT .txt
+take care of File extension is .py NOT .txt
 
 Step 5: Open Terminal in Folder
-Windows:
-Open folder
+Windows: Open folder
 
 Click address bar → type cmd → press Enter
 Mac/Linux:
 
 Right click → “Open Terminal”
 
-2. Dependencies Installation:
+2. DEPENDENCIES INSTALLATION:
 
  No external dependencies required
 
-This project uses only built-in Python modules:
-
-queue (PriorityQueue)
+This project uses only built-in Python modules: queue (PriorityQueue)
 
 No need to install anything
 
-3. Configuration Steps
+3. CONFIGURATION STEPS
 
 This project works without any configuration, but you can customize:
 
-🔹 Change Goal State 
+1. Change Goal State 
 
 Default:
-
 goalstate = [[1,2,3],
               [4,5,6],
               [7,8,0]]
 
 You can modify if required.
 
-🔹 Set Fixed Input
+2. Set Fixed Input
 
 Instead of typing input every time:
 
 start_state = [[1,2,3],
                [4,0,6],
                [7,5,8]]
-🔹 Change Heuristic 
+
+Change heuristic
 
 Default: Manhattan Distance
 
 You can modify the heuristic function if needed.
 
-4. Execution Steps
+4. EXECUTION STEPS:
 
 Step 1: Run Program
 
-In terminal:
-
-python 8_puzzle.py
+In terminal: python 8_puzzle.py
 
 Step 2: Enter Input
 
