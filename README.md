@@ -5,29 +5,47 @@ The algorithm begins by taking an initial puzzle configuration from the user. It
 
 If the puzzle is solvable, the A* algorithm is applied. The algorithm evaluates each possible move and selects the best one based on the function:f(n)=g(n)+h(n)
  where, 
+      
       g(n) = cost from start node to current node
+     
       h(n) = estimated cost to reach the goal state
+
 this process cstops when the goal state is reached.
 
 Concepts used:
+
 1.A* Search Algorithm
+
 2.Heuristic Function (Manhattan Distance)
+
 3.State Space Representation
+
 4.Inversion Count (Solvability Check)
 
 Working Steps:
+
 1.Start with the initial state.
+
 2.Generate all possible moves.
+
 3.Calculate f(n) for each state.
+
 4.Select the state with the lowest f(n).
+
 5.Repeat until the goal state is reached.
 
 Sample input: 
+
 enter row 1: 1 2 3
+
 enter row 2: 4 0 5
+
 enter row 3: 6 7 8
 
 Output 
+
 1.Displays whether the puzzle is solvable or not
+
 2.Shows the minimum number of steps required
+
 3.Prints step-by-step all the solution path
