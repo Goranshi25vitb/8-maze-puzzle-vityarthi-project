@@ -76,7 +76,7 @@ def solvepuzzle(start):
 
     print("No solution found")
 
-# 🔹 TAKE INPUT FROM USER
+# TAKE INPUT FROM USER
 print("Enter the 8-puzzle (use 0 for blank):")
 
 start_state = []
